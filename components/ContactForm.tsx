@@ -132,7 +132,7 @@ export default function ContactForm() {
         >
           {status === "loading" ? "Sending..." : "Send quote"}
         </button>
-        {status === "success" && <p className="text-sm text-lime">Request sent. We'll get back within 24 hours.</p>}
+        {status === "success" && <p className="text-sm text-lime">Request sent. We will get back within 24 hours.</p>}
         {status === "error" && <p className="text-sm text-magenta">Something went wrong. Please try again.</p>}
       </div>
     </form>
